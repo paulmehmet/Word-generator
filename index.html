@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Ipsum Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Nova Ipsum Generator</h1>
+            <p class="subtitle">Random thoughts. Zero logic. Maximum entertainment.</p>
+        </header>
+
+        <section class="controls">
+            <p>I need</p>
+            <input type="number" id="amount" min="1" max="999" value="1">
+
+            <p>of</p>
+            <select id="type">
+                <option value="words">words</option>
+                <option value="sentences">sentences</option>
+                <option value="paragraphs">paragraphs</option>
+            </select>
+
+            <button id="generate">Generate</button>
+        </section>
+
+        <section class="output" id="output"></section>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
